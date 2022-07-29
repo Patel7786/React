@@ -1,0 +1,14 @@
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.exe
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.deps.json
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.runtimeconfig.json
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.runtimeconfig.dev.json
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.dll
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\bin\Debug\netcoreapp3.1\Assignment6.pdb
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.csproj.AssemblyReference.cache
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.AssemblyInfoInputs.cache
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.AssemblyInfo.cs
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.csproj.CoreCompileInputs.cache
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.dll
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.pdb
+C:\Users\prajjawalpatel\source\repos\Assignment6\Assignment6\obj\Debug\netcoreapp3.1\Assignment6.genruntimeconfig.cache

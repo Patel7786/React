@@ -1,0 +1,13 @@
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.exe
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.deps.json
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.runtimeconfig.json
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.runtimeconfig.dev.json
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.dll
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\bin\Debug\netcoreapp3.1\Assignment14.pdb
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.AssemblyInfoInputs.cache
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.AssemblyInfo.cs
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.csproj.CoreCompileInputs.cache
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.dll
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.pdb
+C:\Users\prajjawalpatel\source\repos\Assignment14\Assignment14\obj\Debug\netcoreapp3.1\Assignment14.genruntimeconfig.cache
