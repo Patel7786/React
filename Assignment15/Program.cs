@@ -14,8 +14,11 @@ namespace Exercise15
             numbers.Add(4);
             numbers.Add(5);
             numbers.Add(100);
-            numbers.RemoveAt(0);
+            numbers.RemoveAt(0); 
+            Console.ReadKey();
         }
+
+
         private static void OnCollectionchanged(object sender, NotifyCollectionChangedEventArgs e)
         {
             if (e.Action == NotifyCollectionChangedAction.Add)
@@ -24,6 +27,7 @@ namespace Exercise15
             if (e.Action == NotifyCollectionChangedAction.Remove)
                 if (e.OldItems?[0] is int oldnumber)
                     Console.WriteLine($"Element {oldnumber} is removed from collection");
+
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Assignment11
 {
@@ -36,7 +33,7 @@ namespace Assignment11
 
             return true;
         }
-        public static bool IsDivisibleBy(int i)
+        public static bool IsDivisibleBy(this int i)
         {
             return (i % 2 == 0);
         }
@@ -68,7 +65,7 @@ namespace Assignment11
                 {
                     Console.WriteLine("prime \n");
                 }
-                if (IntExtensions.IsDivisibleBy(i))
+                if (i.IsDivisibleBy())
                 {
                     Console.WriteLine("is divisible by 2");
                 }

@@ -108,7 +108,7 @@ namespace Assignment14
                         Product selectedProduct = null;
                         foreach (var product in products)
                         {
-                            if (product.Key.Id == id)
+                            if (product.Key.Id.Equals(id))
                             {
                                 selectedProduct = product.Key;
                                 break;
@@ -130,7 +130,7 @@ namespace Assignment14
                         selectedProduct = null;
                         foreach (var product in products)
                         {
-                            if (product.Key.Id == id)
+                            if (product.Key.Id.Equals(id))
                             {
                                 selectedProduct = product.Key;
                                 break;

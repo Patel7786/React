@@ -11,3 +11,4 @@ C:\Users\prajjawalpatel\source\repos\Assignment9\Assignment9\obj\Debug\netcoreap
 C:\Users\prajjawalpatel\source\repos\Assignment9\Assignment9\obj\Debug\netcoreapp3.1\Assignment9.dll
 C:\Users\prajjawalpatel\source\repos\Assignment9\Assignment9\obj\Debug\netcoreapp3.1\Assignment9.pdb
 C:\Users\prajjawalpatel\source\repos\Assignment9\Assignment9\obj\Debug\netcoreapp3.1\Assignment9.genruntimeconfig.cache
+C:\Users\prajjawalpatel\source\repos\Assignment9\Assignment9\obj\Debug\netcoreapp3.1\Assignment9.csproj.AssemblyReference.cache

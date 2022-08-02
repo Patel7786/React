@@ -2,10 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 
+
 namespace Assignment12
 {
     class Program
     {
+        public delegate bool prop(int x);
+        public delegate bool great(int x);
+        public delegate bool less(int x);
+        public delegate bool threeK(int x);
+        public delegate bool threeK1(int x);
         public static void Main(string[] args)
         {
             // Create a list of integers
@@ -21,14 +27,16 @@ namespace Assignment12
             Print("Even", even);
 
             // Find Prime – Anonymous Method
-            IEnumerable<int> primes = list.Where(delegate (int x) {
+            prop prims = (x) => {
                 if (x <= 1)
                     return false;
                 for (int i = 2; i <= x / 2; i++)
                     if (x % i == 0)
                         return false;
                 return true;
-            });
+            };
+            IEnumerable<int> primes = list.Where(x=>prims(x)) ;
+                
             Print("Primes", primes);
 
             // Find Prime Another – Lambda Expression
@@ -44,22 +52,23 @@ namespace Assignment12
 
             // Elements Greater Than Five – Method Group Conversion Syntax
             // use method group conversion (assigns a method to a delegate)
-            Func<int, bool> ConditionMore = GreaterThanFive;   // Func<T,TResult> is a delegate
-            IEnumerable<int> greaterThanFive = list.Where(ConditionMore);
+            great ConditionMore = new great(GreaterThanFive);   // Func<T,TResult> is a delegate
+            IEnumerable<int> greaterThanFive = list.Where(x=>ConditionMore(x));
             Print("Greater Than Five", greaterThanFive);
 
             // Less than Five – Delegate Object in Where – Method Group Conversion Syntax in Constructor of Object
-            Func<int, bool> ConditionLess = new Func<int, bool>(LessThanFive);
-            IEnumerable<int> lessThanFive = list.Where(ConditionLess);
+            less ConditionLess = new less(LessThanFive);
+            IEnumerable<int> lessThanFive = list.Where(x=>ConditionLess(x));
             Print("Less Than Five", lessThanFive);
 
             // Find 3k – Delegate Object in Where – Lambda Expression in Constructor of Object
-            Func<int, bool> Condition3k = new Func<int, bool>(x => x % 3 == 0);
-            IEnumerable<int> list3k = list.Where(Condition3k);
+            threeK Condition3k = new threeK(x => x % 3 == 0);
+            IEnumerable<int> list3k = list.Where(x=>Condition3k(x));
             Print("3k", list3k);
 
             // Find 3k + 1 - Delegate Object in Where – Anonymous Method in Constructor of Object
-            Func<int, bool> Condition3kplus1 = new Func<int, bool>(delegate (int x) {
+            Func<int, bool> Condition3kplus1 = new Func<int, bool>(delegate (int x)
+            {
                 return x % 3 == 1;
             });
             IEnumerable<int> list3kplus1 = list.Where(Condition3kplus1);

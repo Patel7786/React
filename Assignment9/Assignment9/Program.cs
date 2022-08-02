@@ -69,6 +69,7 @@ namespace PriorityQueue
             return retval;
         }
 
+
         public void Remove(T element)
         {
             int index = list.FindIndex((x) => EqualityComparer<T>.Default.Equals(x, element));
@@ -121,9 +122,11 @@ namespace PriorityQueue
 
         void swapElements(int firstIndex, int secondIndex)
         {
+
             T temp = list[firstIndex];
             list[firstIndex] = list[secondIndex];
             list[secondIndex] = temp;
+
         }
         #endregion
     }
@@ -223,7 +226,7 @@ namespace PriorityQueue
     {
         static readonly string HR = "------------------------";
 
-        static void TestFunc(PriorityQueue.PQueue<TestThing> pq)
+        static void TestFunc(PQueue<TestThing> pq)
         {
             while (pq.Count > 5) { Console.Write(pq.Pop() + ", "); }
             Console.WriteLine(pq.Pop());
@@ -241,34 +244,34 @@ namespace PriorityQueue
         public static void Main()
         {
             List<TestThing> list = new List<TestThing> {
-new TestThing("", 1),
-new TestThing("a", 3),
-new TestThing("a", 5),
-new TestThing("a", 7),
-new TestThing("a", 7),
-new TestThing("", 9),
-new TestThing("b", 3),
-new TestThing("b", 5),
-new TestThing("b", 7),
-new TestThing("c", 7)
-};
+            new TestThing("", 1),
+            new TestThing("a", 3),
+            new TestThing("a", 5),
+            new TestThing("a", 7),
+            new TestThing("a", 7),
+            new TestThing("", 9),
+            new TestThing("b", 3),  
+            new TestThing("b", 5),
+            new TestThing("b", 7),
+            new TestThing("c", 7)
+            };
 
-            PriorityQueue.PriorityIsGreater<TestThing> isGreater = (a, b) => a.Value < b.Value;
+            PriorityIsGreater<TestThing> isGreater = (a, b) => a.Value < b.Value;
 
-            PriorityQueue.PQueue<TestThing> pq = new PriorityQueue.Queue<TestThing>(isGreater, list.ToArray());
+            PQueue<TestThing> pq = new Queue<TestThing>(isGreater, list.ToArray());
             TestFunc(pq);
-            pq = new PriorityQueue.StableQueue<TestThing>(isGreater, list.ToArray());
+            pq = new StableQueue<TestThing>(isGreater, list.ToArray());
             TestFunc(pq);
 
             List<int> vals = new List<int> { 1, 5, 2, 3, 5, 4, 3, 2, 4 };
-            PriorityQueue.PQueue<int> queue = new PriorityQueue.Queue<int>((a, b) => a > b, vals.ToArray());
+            PQueue<int> queue = new Queue<int>((a, b) => a > b, vals.ToArray());
             queue.Remove(7);
             queue.Remove(3);
             while (queue.Count > 1) { Console.Write(queue.Pop() + ", "); }
             Console.WriteLine(queue.Pop());
             Console.WriteLine(HR);
 
-            queue = new PriorityQueue.StableQueue<int>((a, b) => a > b, vals.ToArray());
+            queue = new StableQueue<int>((a, b) => a > b, vals.ToArray());
             queue.Remove(7);
             queue.Remove(3);
             while (queue.Count > 1) { Console.Write(queue.Pop() + ", "); }
