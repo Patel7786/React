@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PriorityQuene_assignment/1.0.0": {
+        "runtime": {
+          "PriorityQuene_assignment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PriorityQuene_assignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

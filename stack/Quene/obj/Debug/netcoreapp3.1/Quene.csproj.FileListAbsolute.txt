@@ -1,0 +1,14 @@
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.exe
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.deps.json
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.runtimeconfig.json
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.runtimeconfig.dev.json
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.dll
+C:\Users\prajjawalpatel\source\repos\stack\Quene\bin\Debug\netcoreapp3.1\Quene.pdb
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.csproj.AssemblyReference.cache
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.AssemblyInfoInputs.cache
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.AssemblyInfo.cs
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.csproj.CoreCompileInputs.cache
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.dll
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.pdb
+C:\Users\prajjawalpatel\source\repos\stack\Quene\obj\Debug\netcoreapp3.1\Quene.genruntimeconfig.cache
