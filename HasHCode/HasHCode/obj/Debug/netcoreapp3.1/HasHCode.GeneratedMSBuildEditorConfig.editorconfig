@@ -1,3 +1,8 @@
 is_global = true
+<<<<<<< HEAD:HasHCode/HasHCode/obj/Debug/netcoreapp3.1/HasHCode.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = HasHCode
 build_property.ProjectDir = C:\Users\prajjawalpatel\source\repos\HasHCode\HasHCode\
+=======
+build_property.RootNamespace = Assignment1
+build_property.ProjectDir = C:\Users\prajjawalpatel\source\C#\Assignment1\Assignment1\
+>>>>>>> c288727 (again added):Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.GeneratedMSBuildEditorConfig.editorconfig

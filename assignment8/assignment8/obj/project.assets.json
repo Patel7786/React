@@ -14,19 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD:stack/HashTable/obj/project.assets.json
-      "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\repos\\stack\\HashTable\\HashTable.csproj",
-      "projectName": "HashTable",
-      "projectPath": "C:\\Users\\prajjawalpatel\\source\\repos\\stack\\HashTable\\HashTable.csproj",
+      "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj",
+      "projectName": "assignment8",
+      "projectPath": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj",
       "packagesPath": "C:\\Users\\prajjawalpatel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prajjawalpatel\\source\\repos\\stack\\HashTable\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj",
-      "projectName": "Assignment1",
-      "projectPath": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj",
-      "packagesPath": "C:\\Users\\prajjawalpatel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\obj\\",
->>>>>>> c288727 (again added):Assignment1/Assignment1/obj/project.assets.json
+      "outputPath": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

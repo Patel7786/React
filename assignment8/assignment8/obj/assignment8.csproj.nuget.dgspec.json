@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:LinkList/LinkList/obj/LinkList.csproj.nuget.dgspec.json
-    "C:\\Users\\prajjawalpatel\\source\\repos\\LinkList\\LinkList\\LinkList.csproj": {}
+    "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prajjawalpatel\\source\\repos\\LinkList\\LinkList\\LinkList.csproj": {
+    "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\repos\\LinkList\\LinkList\\LinkList.csproj",
-        "projectName": "LinkList",
-        "projectPath": "C:\\Users\\prajjawalpatel\\source\\repos\\LinkList\\LinkList\\LinkList.csproj",
+        "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj",
+        "projectName": "assignment8",
+        "projectPath": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\assignment8.csproj",
         "packagesPath": "C:\\Users\\prajjawalpatel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prajjawalpatel\\source\\repos\\LinkList\\LinkList\\obj\\",
-=======
-    "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj",
-        "projectName": "Assignment1",
-        "projectPath": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\Assignment1.csproj",
-        "packagesPath": "C:\\Users\\prajjawalpatel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prajjawalpatel\\source\\C#\\Assignment1\\Assignment1\\obj\\",
->>>>>>> c288727 (again added):Assignment1/Assignment1/obj/Assignment1.csproj.nuget.dgspec.json
+        "outputPath": "C:\\Users\\prajjawalpatel\\source\\C#\\assignment8\\assignment8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
