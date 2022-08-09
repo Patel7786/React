@@ -1,7 +1,0 @@
-C:\Users\prajjawalpatel\source\repos\Assignment17\bin\Debug\Exercise17.exe.config
-C:\Users\prajjawalpatel\source\repos\Assignment17\bin\Debug\Exercise17.exe
-C:\Users\prajjawalpatel\source\repos\Assignment17\bin\Debug\Exercise17.pdb
-C:\Users\prajjawalpatel\source\repos\Assignment17\obj\Debug\Exercise17.csproj.AssemblyReference.cache
-C:\Users\prajjawalpatel\source\repos\Assignment17\obj\Debug\Exercise17.csproj.CoreCompileInputs.cache
-C:\Users\prajjawalpatel\source\repos\Assignment17\obj\Debug\Exercise17.exe
-C:\Users\prajjawalpatel\source\repos\Assignment17\obj\Debug\Exercise17.pdb
