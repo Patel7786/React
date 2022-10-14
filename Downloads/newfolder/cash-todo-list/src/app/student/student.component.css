@@ -1,0 +1,16 @@
+.field{
+    width:100%;
+    margin-left: 100px;;
+}
+
+.container
+{
+    margin-top: 50px;
+}
+.card{
+    width:60%;
+    margin: auto;
+    background-color: burlywood;
+    text-align: center;
+    
+}

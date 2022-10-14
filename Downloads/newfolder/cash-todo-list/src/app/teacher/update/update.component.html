@@ -1,0 +1,29 @@
+<app-headr></app-headr>
+<div class="text-center" style="margin: 20px;"><h1> Edit Details</h1></div>
+<div class="card">
+    <form >
+      <div class="form-group">
+        <label for="exampleInputPassword1">Roll Number</label>
+        <input type="number" [(ngModel)]="userObj.Rollnumber" class="form-control"  id="exampleInputPassword1" placeholder="RollNumber">
+        
+      </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Name</label>
+      <input type="text" [(ngModel)]="userObj.Name"  class="form-control" id="exampleInputPassword1" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">DOB</label>
+      <input type="date" [(ngModel)]="userObj.DOB" class="form-control" id="exampleInputPassword1" placeholder="DOB">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Score</label>
+      <input type="number" [(ngModel)]="userObj.Score" class="form-control" id="exampleInputPassword1" placeholder="Score">
+    </div>
+    <div style="margin: 20px; text-align: center;">
+      <button type="submit" class="btn btn-primary" (click)="Updateuser()">Edit</button>
+      <button type="reset" class="btn btn-primary" value="reset" style="margin-left: 20px;" >clear</button>
+    </div>
+    
+  </form>
+  
+  </div>

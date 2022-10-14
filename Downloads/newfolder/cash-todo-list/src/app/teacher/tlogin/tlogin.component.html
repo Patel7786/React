@@ -1,0 +1,61 @@
+<app-headr></app-headr>
+<button routerLink="addRecord" type="button" class="btn btn-primary" style="margin: 20px;">Add Record</button>
+
+<div class="row">
+    <div class="col-12">
+        <table class="table  table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>RollNumber</th>
+                    <th>Name</th>
+                    <th>DOB</th>
+                    <th>Score</th>
+                    
+                    
+                    
+                    <th style="width: 15%;" class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of userList;let i= index">
+                    <td>{{i+1}}</td>
+                    <td>
+                            <input type="text" [(ngModel)]="user.Rollnumber" class="form-control"/>
+                    
+                         
+                    </td>
+                    <td>
+                        <input type="text" [(ngModel)]="user.Name" class="form-control"/>
+                
+                     
+                    </td>
+                    
+                    <td>
+                       
+                            <input type="date" [(ngModel)]="user.DOB" class="form-control"/>
+                       
+                        
+                    </td>
+                    <td>
+                        
+                            <input type="text" [(ngModel)]="user.Score" class="form-control"/>
+                        
+                        
+                    </td>
+                    
+                    <td style="width: 15%;" class="text-center">
+                        <div>
+                            <button class="btn btn-sm btn-success" [routerLink]="['update',user['UserId']]" >Edit</button>
+                            <button class="btn btn-sm btn-secondry" (click)="delete(user['UserId'])" >Delete</button> 
+                        </div>
+                        
+                    </td>
+                </tr>
+            </tbody> 
+        </table>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+
